@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="card">
+  <div class="avatar"></div>
+  <h2>Fashion Girl</h2>
+  <p>Dreamy · Aesthetic · Stylish</p >
+  <div class="tags">
+    <span>vibe</span>
+    <span>style</span>
+    <span>pink</span>
+  </div>
+</div>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f5e3f5, #e3d8f8, #d1e5ff);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(180, 140, 255, 0.2);
+    border: 1px solid rgba(255,255,255,0.5);
+    width: 320px;
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ffc0e7, #c998ff);
+    box-shadow: 0 8px 20px rgba(200, 150, 255, 0.3);
+  }
+  h2 {
+    font-size: 24px;
+    color: #7a5cff;
+    margin-bottom: 8px;
+  }
+  p {
+    color: #b39ddb;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .tags {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  .tags span {
+    padding: 6px 12px;
+    background: linear-gradient(90deg, #f09cff, #a8bfff);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+</style>
+</body>
+</html>
